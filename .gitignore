@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*secret*.yaml
+*secret*.yml
+secrets/
+credentials/
+
+# Kubernetes local configuration
+.kube/
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Certificates and private keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
